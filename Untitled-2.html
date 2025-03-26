@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <section>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIVEK BADGUJAR - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      color: #0073e6;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: #0073e6;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #0073e6;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #0073e6;
+    }
+
+    section p {
+      margin-bottom: 15px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      background: #fafafa;
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skills li {
+      background: #0073e6;
+      color: #fff;
+      padding: 8px 15px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.9em;
+    }
+
+    .contact a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+
+    /* Circular Image Styling */
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #0073e6;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Title Section -->
+    <section id="title-section">
+      <marquee behavior="alternate" direction="right" scrollamount="5" loop="3" bgcolor="yellow">
+        Welcome to My Digital Portfolio!
+      </marquee>
+    </section>
+    <section>
+
+    <!-- Circular Profile Photo -->
+    <img src="c:\Users\ASUS\Desktop\PORTFOLIO\WhatsApp Image 2025-02-21 at 11.32.07 PM - Copy.jpeg" alt="Vivek Badgujar" class="profile-pic">
+
+    <!-- Header with Name and Title -->
+    <header>
+      <h1>VIVEK BADGUJAR</h1>
+      <p>Electronics & Telecommunication Engineer | B.Tech Student</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am a B.Tech student in Electronics & Telecommunication Engineering at Savitribai Phule Pune University.
+        Passionate about electronics, PCB design, and microcontroller-based projects, I strive to bring innovation 
+        and efficiency to every project I undertake. I hail from the vibrant Jalgaon district and am always eager to learn and grow.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Smart E-Water Bottle</h3>
+          <p>
+            A smart bottle that heats and cools water using a Peltier module and heating element, managed by an ESP32 microcontroller.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Mini Electronics Project</h3>
+          <p>
+            An industrial automation project using sensors and actuators designed to improve material handling and processing efficiency.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Soldering</li>
+        <li>PCB Design (KiCad, Altium, Eagle)</li>
+        <li>Microcontrollers (ESP32, Arduino)</li>
+        <li>Circuit Design</li>
+        <li>Team Collaboration</li>
+      </ul>
+    </section>
+<!-- 
+   <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      
+            <!-- Contact Section -->
+    <section id="contact-section">
+
+        
+        <p><strong>Email:</strong> <a href="mailto:vivekbadgujar1711@gmail.com">vivekbadgujar1711@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:9623465725">9623465725</a></p>
+        <p><strong>Website:</strong> <a href="https://virusemicon.com" target="_blank">virusemicon.com</a></p>
+      
+    </section> -->
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 VIVEK BADGUJAR. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
